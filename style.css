@@ -1,0 +1,13 @@
+.header {
+    padding: 5px;
+    background: rgb(23, 25, 38);
+    color: white;
+    font-size: 5px;
+
+}
+
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
