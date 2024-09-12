@@ -1,0 +1,16 @@
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%
+}
+
+.why {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    padding: 5px;
+}
+
+.writing {
+    
+}
