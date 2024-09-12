@@ -9,6 +9,7 @@ body {
     width: 300px;
     height: 100px;
     padding: 5px;
+    padding-bottom: 50px;
 }
 
 .writing {
@@ -17,3 +18,12 @@ body {
 }
 
 
+h1 { 
+    font-family: Raleway;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+p {
+    font-family: open sans;
+}
