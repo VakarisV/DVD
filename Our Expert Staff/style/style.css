@@ -1,0 +1,119 @@
+body {
+    background-color: #ffffff;
+}
+
+.boxes {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 16px;
+    margin-left: 15%;
+}
+
+.workers {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 65px;
+    margin-left: 17.7%;
+}
+
+.caption {
+    text-align: center;
+}
+
+h3 {
+    color: #ffffff;
+    font-size: 12px;
+}
+
+img {
+    width: 125px;
+    height: 125px;
+    background-color: #ffffff;
+}
+
+.work1 {
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    filter: drop-shadow(0 0 125px rgba(3,3,3,0.15));
+    background-color: #ffffff;
+    
+}
+
+.staff1 {
+    font-size: 13px;
+    margin: auto;
+    width: 175px;
+    height: 75px;
+    border-radius: 2px;
+    background-color: #fe9901;
+    text-align: center;
+}
+
+
+.staff2 {
+    font-size: 13px;
+    margin: auto;
+    width: 175px;
+    height: 75px;
+    border-radius: 2px;
+    background-color: #fe9901;
+    text-align: center;
+}
+
+.staff3 {
+    font-size: 13px;
+    margin: auto;
+    gap: 10px;
+    width: 175px;
+    height: 75px;
+    border-radius: 2px;
+    background-color: #fe9901;
+    text-align: center;
+}
+
+.staff4 {
+    font-size: 13px;
+    margin: auto;
+    width: 175px;
+    height: 75px;
+    border-radius: 2px;
+    background-color: #fe9901;
+    text-align: center;
+}
+.fa {
+    padding: 5px;
+    font-size: 5px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #ffffff;
+    color: #fe9901;
+ }
+
+.fa-twitter {
+    background: #ffffff;
+    color: #fe9901;
+}
+
+.fa-linkedin{
+    background: #ffffff;
+    color: #fe9901;
+}
+
+.fa-instagram{
+    background: #ffffff;
+    color: #fe9901;
+}
