@@ -1,0 +1,59 @@
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%
+}
+
+.why {
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    padding: 5px;
+    padding-bottom: 50px;
+}
+
+.writing {
+    padding-left: 10%;
+    padding-top: 30px;
+}
+
+
+h1 { 
+    font-family: Raleway;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+p {
+    font-family: open sans;
+}
+
+.square-1 {
+    height: 116px;
+    width: 116px;
+    background-color: #ffffff;
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: 86px;
+    border-radius: 5px
+}
+
+.square-2 {
+    height: 116px;
+    width: 116px;
+    background-color: #fd9901;
+    display: inline-block;
+    margin-left: 2%;
+    margin-top: 86px;
+    border-radius: 5px
+}
+
+.square-3 {
+    height: 116px;
+    width: 116px;
+    background-color: #ffffff;
+    display: inline-block;
+    margin-left: 2%;
+    margin-top: 86px;
+    border-radius: 5px
+}
