@@ -45,7 +45,43 @@ p {
 
 .Blackbubble img {
     display: inline-block;
-    position: fixed;
+    position: absolute;
     padding-left: 965px;
     padding-top: 650px;
+}
+
+.Larrow img {
+    display: inline-block;
+    position: absolute;
+    padding-left: 878px;
+    padding-top: 692px;
+}
+
+.Rarrow img {
+    display: inline-block;
+    position: absolute;
+    padding-left: 1010px;
+    padding-top: 692px;
+}
+
+.text1 {
+    position: absolute;
+    top: 625px;
+    left: 350px;
+    width: 100%;
+    margin: 0 auto;
+    width: 300px;
+    height: 50px;
+    color: #fffcf4;
+    size: 31px;
+    font-family: raleway;
+    line-height: 35px;
+    font-weight: 400;
+
+}
+
+.box1 {
+    background-color: blue;
+    height: 500px;
+    width: 500px;
 }
