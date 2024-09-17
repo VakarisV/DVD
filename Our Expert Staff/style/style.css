@@ -1,4 +1,7 @@
-
+.boxes {
+    display: table;
+    margin: auto;
+}
 
 .caption {
     text-align: center;
@@ -6,9 +9,12 @@
 
 h3 {
     color: #ffffff;
+    font-size: 10px;
 }
 
 .staff1 {
+    font-size: 12px;
+    margin: auto;
     display: inline-block;
     width: 175px;
     height: 75px;
@@ -17,7 +23,16 @@ h3 {
     text-align: center;
 }
 
+.staff1 img {
+    width: 100px;
+    height: 100px;
+    filter: drop-shadow(0 0 125px rgba(3,3,3,0.15));
+    background-color: #ffffff;
+}
+
 .staff2 {
+    font-size: 12px;
+    margin: auto;
     display:inline-block;
     width: 175px;
     height: 75px;
@@ -27,6 +42,8 @@ h3 {
 }
 
 .staff3 {
+    font-size: 12px;
+    margin: auto;
     display:inline-block;
     width: 175px;
     height: 75px;
@@ -36,6 +53,8 @@ h3 {
 }
 
 .staff4 {
+    font-size: 12px;
+    margin: auto;
     display:inline-block;
     width: 175px;
     height: 75px;
