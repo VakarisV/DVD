@@ -2,7 +2,7 @@ h1 {
     font-size: 40px;
     line-height: 32px;
     font-weight: 600;
-    font-family: "Raleway";
+    font-family: Raleway;
     text-align: center;
 
 }
@@ -12,6 +12,7 @@ p {
     line-height: 32px;
     font-weight: 600;
     text-align: center;
+    font-family: raleway;
 
 }
 
@@ -19,20 +20,20 @@ p {
     padding-left: 275px;
     padding-top: 30px;
     display: inline-block;
-    position: fixed;
+    position: absolute;
 }
 
 .Skywork img {
     padding-left: 725px;
     display: inline-block;
-    position: fixed;
+    position: absolute;
     padding-top: 30px;
 }
 
 .Painter img {
     padding-left: 1175px;
     display: inline-block;
-    position: fixed;
+    position: absolute;
     padding-top: 30px;
 }
 
@@ -40,7 +41,7 @@ p {
     padding-top: 650px;
     padding-left: 835px;
     display: inline-block;
-    position: fixed;
+    position: absolute;
 }
 
 .Blackbubble img {
@@ -80,8 +81,44 @@ p {
 
 }
 
-.box1 {
-    background-color: blue;
-    height: 500px;
-    width: 500px;
+.background {
+    position: absolute;
+    top: 475px;
+    left: 733px;
+    width: 100%;
+    margin: 0 auto;
+    width: 300px;
+    height: 50px;
+    color: #fffcf4;
+    size: 31px;
+    font-family: raleway;
+    line-height: 35px;
+    font-weight: 400;
+    background-color: rgb(23, 91, 151);
+    height: 268px;
+    width: 435px;
+    z-index: 1;
+    opacity: 70%;
+ 
+}
+
+h2 {}
+
+.text3 {
+    position: absolute;
+    top: 625px;
+    left: 1250px;
+    width: 100%;
+    margin: 0 auto;
+    width: 300px;
+    height: 50px;
+    color: #fffcf4;
+    size: 31px;
+    font-family: raleway;
+    line-height: 35px;
+    font-weight: 400;
+}
+
+p {
+    font-family: raleway;
 }
