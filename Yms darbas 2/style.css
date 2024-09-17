@@ -1,6 +1,6 @@
 h1 {
-    font-size: 30px;
-    line-height: 35px;
+    font-size: 40px;
+    line-height: 32px;
     font-weight: 600;
     font-family: "Raleway";
     text-align: center;
@@ -8,9 +8,44 @@ h1 {
 }
 
 p {
-    font-size: 17px;
-    line-height: 35px;
+    font-size: 20px;
+    line-height: 32px;
     font-weight: 600;
     text-align: center;
 
+}
+
+.Tracktor img {
+    padding-left: 275px;
+    padding-top: 30px;
+    display: inline-block;
+    position: fixed;
+}
+
+.Skywork img {
+    padding-left: 725px;
+    display: inline-block;
+    position: fixed;
+    padding-top: 30px;
+}
+
+.Painter img {
+    padding-left: 1175px;
+    display: inline-block;
+    position: fixed;
+    padding-top: 30px;
+}
+
+.Orangebubble img {
+    padding-top: 650px;
+    padding-left: 835px;
+    display: inline-block;
+    position: fixed;
+}
+
+.Blackbubble img {
+    display: inline-block;
+    position: fixed;
+    padding-left: 965px;
+    padding-top: 650px;
 }
