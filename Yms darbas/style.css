@@ -1,0 +1,32 @@
+h1 {
+    font-family: raleway;
+}
+
+h3 {
+    font-family: open sans;
+
+
+}
+
+.README {
+    background-color: #252525;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 17px;
+    padding: 22px 40px;
+    text-decoration: none;
+    position: relative;
+    right: 800px;
+    bottom: 20px;
+    text-align: right;
+
+}
+
+
+div {
+    width: 950px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
