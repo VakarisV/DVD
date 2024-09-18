@@ -1,5 +1,5 @@
 .caption {
-    padding-top: 75px;
+    padding-top: 50px;
     text-align: center;
     font-family: Raleway;
 }
@@ -98,7 +98,8 @@ img {
 }
 
 .staff1 {
-    margin-top: -4px;
+    font-family: open sans;
+    margin-top: -3.5px;
     font-size: 20px;
     width: 250px;
     height: 100px;
@@ -109,8 +110,9 @@ img {
 
 
 .staff2 {
+    font-family: open sans;
     font-size: 20px;
-    margin-top: -4px;
+    margin-top: -3.5px;
     width: 250px;
     height: 100px;
     border-radius: 2px;
@@ -119,8 +121,9 @@ img {
 }
 
 .staff3 {
+    font-family: open sans;
     font-size: 20px;
-    margin-top: -4px;
+    margin-top: -3.5px;
     width: 250px;
     height: 100px;
     border-radius: 2px;
@@ -129,8 +132,9 @@ img {
 }
 
 .staff4 {
+    font-family: open sans;
     font-size: 20px;
-    margin-top: -4px;
+    margin-top: -3.5px;
     width: 250px;
     height: 100px;
     border-radius: 2px;
@@ -168,4 +172,25 @@ img {
 .fa-instagram{
     background: #ffffff;
     color: #fe9901;
+}
+
+.see-more {
+	background-color:#1b1b1a;;
+	border-radius:3px;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:open sans;
+	font-size:12px;
+	font-weight:bold;
+	padding:15px 40px;
+	text-decoration:none;
+    margin-left: 44.4%;
+    margin-top: 500px;
+    position:relative;
+    top:100px;
+}
+
+.see-more:active {
+	position:relative;
+	top:101px;
 }
