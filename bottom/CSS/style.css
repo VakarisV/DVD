@@ -135,7 +135,7 @@ body{
 }
 .item11{
     grid-area: 1 / 2 / 4/ 12;
-    border-radius: 50%;
+    border-radius: 100px 100px 100px 100px;
     border: 10px;
     padding: 30px;
     width: 150px;
