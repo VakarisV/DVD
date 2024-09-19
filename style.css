@@ -24,6 +24,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-family: "Poppins", sans-serif;
 }
 
 .fa {
@@ -124,7 +125,6 @@ nav a:hover {
 .description {
   color: white;
   padding-left: 16%;
-  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 17px;
   font-family: "Poppins", sans-serif;
