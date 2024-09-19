@@ -1,18 +1,23 @@
 body {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/14323.jpg');
+    background-image: linear-gradient(rgba(21, 25, 42, 0.745), rgba(21, 25, 42, 0.745)), url('img/14323.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: 100% 120%;
     background-position-y: -135px;
 }
 
+* {
+    padding:0;
+    margin:0;
+}
+
+
 .social {
-    padding-right: 20%;
-    padding-left: 20%;
+    padding-right: 18%;
+    padding-left: 15%;
     background: #161825;
     color: white;
     height: 50px;
-    max-width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,7 +25,7 @@ body {
 
 .fa {
     padding: 5px;
-    width: 30px;
+    width: 20px;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
@@ -51,16 +56,26 @@ body {
 }
 
 .container {
+    padding-right: 75px;
     padding-left: 30px;
     margin-left: 15%;
     background-color: white;
     color: black;
     font-size: 15px;
     height: 100px;
-    width: 70%;
+    width: 60%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.navigaation {
+    gap: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
 }
 
 nav ul {
@@ -83,7 +98,13 @@ nav a {
 
 
 nav a.active {
-    color: #ff9900;
+    padding: 12px 20px; 
+    width: 50px;
+    height: 50px;
+    color: #ffffff;
+    border: #ff9900;
+    border-radius: 5px;
+    background-color: #ff9900;
 }
 
 
@@ -91,50 +112,51 @@ nav a:hover {
     color: #ff9900;
 }
 
-.h3 {
-    padding: 5px;
-    margin: auto;
-    color: white;
-    border: 10px;
-    border-radius: 10px;
-    background-color: orange;
-    width: 80px;
-}
 
-.w3-medium.w3-section {
-    display: ruby-text;
-}
-
-.h2 {
-    padding: 5px;
-    margin: auto;
-    border: 10px;
-    border-radius: 10px;
-    width: 80px;
-}
-
-.h1 {
+.we-are {
     color: white;
     font-size: 100px;
-    font-weight: bolder;
-    padding-left: 450px;
+    font-weight: 700;
+    padding-left: 15%;
     padding-top: 100px;
+    font-family: "Poppins", sans-serif;
 
 }
 
-.h {
+.description {
     color: white;
-    padding-left: 450px;
-
+    padding-left: 16%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    font-family: "Poppins", sans-serif;
 }
 
-.div1 {
-    margin-left: 450px;
-    color: white;
-    border: 50px;
-    border-radius: 5px;
-    background-color: orange;
-    width: 300px;
-    height: 50px;
+
+.contact {
+    margin-left: 15%;
+    margin-top: 5%;
+	background-color:#ff9900;
+	border-radius:3px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:20px;
+    font-family: "Poppins", sans-serif;
+	padding:15px 100px;
+	text-decoration:none;
     text-align: center;
+}
+.contact:hover {
+	background-color:#ff9900;
+}
+.contact:active {
+	position:relative;
+	top:1px;
+}
+
+.white {
+    background-color: #ffffff
+    width: 1000px;
+    height: 30px;
 }
