@@ -1,0 +1,77 @@
+.Traktor img {
+    padding-left: 1130px;
+    position: absolute;
+    padding-top: 3px;
+}
+.Truck{
+    padding-left: 50px;
+    position: absolute;
+    padding-top: 73px;
+}
+h1 {
+    text-align: left;
+    padding-left: 220px;
+    padding-top: 50px;
+    font-family: raleway;
+}
+.Box1 {
+    background-color: #ffffff;
+    height: 350px;
+    width: 454.35px;
+    margin-left: 220px;
+    padding-left: 65px;
+    padding-bottom: 18px;
+    
+}
+.map img {  
+    padding-left: 455px;
+    height: 350px;    
+    position: absolute;
+}
+body {
+    background-color: #fafafa;
+}
+.Name {
+padding-bottom: 15px;
+margin-bottom: 4px;
+margin-top: 2px;
+padding-right: 211px;
+}
+.Phone {
+    padding-bottom: 15px;
+    margin-bottom: 4px;
+    padding-right: 211px;
+}
+.Email {
+    padding-bottom: 15px;
+    margin-bottom: 4px;
+    padding-right: 211px;
+}
+.Message{
+    padding-bottom: 40px;
+margin-bottom: 4px;
+padding-right: 211px;
+}
+.myButton {
+	background-color:#fe9901;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Poppins;
+	font-size:17px;
+	padding:12px 30px;
+	text-decoration:none;
+    font-weight: 70px;
+    width: 40px;
+    height: 16px;
+    text-align: center;
+    margin-top: 295px;
+    position: fixed;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.map {
+    position: relative;
+}
