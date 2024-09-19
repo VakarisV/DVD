@@ -3,7 +3,7 @@
     position: absolute;
     padding-top: 3px;
 }
-.Truck img {
+.Truck{
     padding-left: 50px;
     position: absolute;
     padding-top: 73px;
@@ -20,6 +20,7 @@ h1 {
     width: 454.35px;
     margin-left: 220px;
     padding-left: 65px;
+    padding-bottom: 18px;
     
 }
 .map img {  
