@@ -161,7 +161,7 @@ nav a:hover {
   display: grid;
   gap: 0px;
   width: 80%;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   margin: auto;
   grid-template-rows: 100px 100px 100px;
   background-size: cover;
@@ -169,30 +169,73 @@ nav a:hover {
 .white1 {
   border: 10px;
   border-radius: 1px 1px 1px 1px;
-  background-color: #000;
+  background-color: #ffffff;
   margin-top: 50%;
   margin-left: 20%;
+  width: 300px;
+  height: 200px;
+  text-align: center;
+  filter: drop-shadow(0 0 125px rgba(3,3,3,0.16));
 }
 .orange {
   border: 10px;
   border-radius: 1px 1px 1px 1px;
-  background-color: #000;
+  background-color: rgb(247, 148, 0);
   margin-left: 50%;
   margin-top: 50%;
-  width: 100px;
+  width: 300px;
+  height: 200px;
+  text-align: center;
+  color: white;
+  filter: drop-shadow(0 0 125px rgba(3,3,3,0.16));
 }
 .grey {
   border: 10px;
   border-radius: 1px 1px 1px 1px;
-  background-color: #000;
-  margin-left: 100%;
+  background-color: white;
+  margin-left: 80%;
   margin-top: 50%;
-  width: 100px;
+  width: 300px;
+  height: 200px;
+  text-align: center;
+  filter: drop-shadow(0 0 125px rgba(3,3,3,0.16));
 }
-.whitebord {
-    border: 10px;
-  border-radius: 1px 1px 1px 1px;
-  background-color: #000;
-  margin-left: 100%;
-  margin-top: 50%;
+
+  
+
+.circleb {
+    border-radius: 100px 100px 100px 100px;
+  border: 5px;
+  background-color: rgb(22, 24, 38);
+  padding: 30px;
+  width: 50px;
+  height: 50px;
+  margin-left: 290%;
+  margin-top: 180%;
 }
+.circleo {
+    border-radius: 100px 100px 100px 100px;
+    border: 5px;
+    background-color: rgb(247, 148, 0);
+    padding: 30px;
+    width: 50px;
+    height: 50px;
+    margin-left: 280%;
+    margin-top: 180%;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 100px;
+    text-align: center;
+    background-color: white;
+    margin-top: -3%;
+    color: white;
+}
+.flex-item-left {
+    background-color: #f1f1f1;
+    padding: 10px;
+    flex: 50%;
+    color: white;
+  }
