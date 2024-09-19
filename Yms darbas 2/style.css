@@ -67,7 +67,7 @@ p {
 
 .text1 {
     position: absolute;
-    top: 625px;
+    top: 605px;
     left: 350px;
     width: 100%;
     margin: 0 auto;
@@ -89,24 +89,23 @@ p {
     margin: 0 auto;
     width: 300px;
     height: 50px;
-    color: #000000;
+    
     size: 31px;
     font-family: raleway;
-    line-height: 35px;
+    line-height: 27px;
     font-weight: 400;
     background-color: rgb(255, 255, 255);
     height: 268px;
     width: 435px;
     z-index: 1;
     opacity: 70%;
- 
+    
 }
 
-h2 {}
 
 .text3 {
     position: absolute;
-    top: 625px;
+    top: 605px;
     left: 1250px;
     width: 100%;
     margin: 0 auto;
@@ -119,6 +118,16 @@ h2 {}
     font-weight: 400;
 }
 
-p {
+h3 {
+    font-size: 25px;
+    margin-left: 25px;
+    color: #000000;
     font-family: raleway;
+ }
+h4 {
+    margin-left: 25px;
+    font-family: raleway;
+    font-size: 17px;
+    margin-top: 46px;
+    color: #252525;
 }
