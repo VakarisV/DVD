@@ -48,6 +48,7 @@
   }
   
   .head {
+    filter: drop-shadow(0.366px 2.978px 20px rgba(13,3,3,0.16));
     padding-right: 75px;
     padding-left: 30px;
     margin-left: 15%;
