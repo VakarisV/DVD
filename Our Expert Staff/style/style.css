@@ -3,7 +3,7 @@ html, body{
 }
   
 .social {
-    padding-right: 18%;
+    padding-right: 20%;
     padding-left: 15%;
     background: #161825;
     color: white;
@@ -15,12 +15,13 @@ html, body{
 }
 .social
 .fa {
-    padding: 5px;
-    width: 20px;
+    padding: 7px;
+    width: 16px;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
-}
+  }
+  
   .social
 .fa:hover {
     opacity: 0.7;
