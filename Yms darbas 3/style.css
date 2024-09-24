@@ -1,78 +1,121 @@
-.Traktor img {
-    padding-left: 1130px;
-    position: absolute;
-    padding-top: 3px;
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 0px solid #ccc;
+  border-radius: 0px;
+  box-sizing: border-box;
 }
-.Truck{
-    padding-left: 50px;
-    position: absolute;
-    padding-top: 73px;
+
+
+
+.Traktor img {
+  padding-left: 1530px;
+  position: absolute;
+  padding-top: 97px;
+}
+.Truck {
+  padding-left: 50px;
+  position: absolute;
+  padding-top: 163px;
 }
 h1 {
-    text-align: left;
-    padding-left: 220px;
-    padding-top: 50px;
-    font-family: raleway;
+  text-align: left;
+  padding-left: 220px;
+  padding-top: 50px;
+  font-family: raleway;
 }
 .Box1 {
-    background-color: #ffffff;
-    height: 350px;
-    width: 454.35px;
-    margin-left: 220px;
-    padding-left: 65px;
-    padding-bottom: 18px;
-    
+  background-color: #ffffff;
+  height: 450px;
+  width: 700px;
+  margin-left: 220px;
+  padding-left: 65px;
+  padding-bottom: 18px;
+  display: grid;
 }
-.map img {  
-    padding-left: 455px;
-    height: 375px;    
-    position: absolute;
+.grid-item1 {
+  grid-area: 1/ 1/ 3/ 2;
+  width: 690px;
+  height: 490px;
+  filter: drop-shadow(0 0 9px rgba(22,22,23,0.11));
+}
+.grid-item2 {
+  grid-area: 1 / 2/ 3/2;
+  filter: drop-shadow(0 0 9px rgba(22,22,23,0.11));
+}
+.map img {
+  height: 469px;
+  width: 700px;
+  position: absolute;
+  max-width: 100%;
+  top: -486px;
+  display: flex;
 }
 body {
-    background-color: #fafafa;
+  background-color: #fafafa;
+  width: 690px;
+  height: 490px;
+}
+html {
+  width: 690px;
+  height: 490px;
 }
 .Name {
-padding-bottom: 15px;
-margin-bottom: 4px;
-margin-top: 2px;
-padding-right: 211px;
+  margin-top: 20px;
+  padding-right: 75px;
+  font-family: poppins;
+  filter: drop-shadow(0 0 9px rgba(22,22,23,0.11));
+  
 }
 .Phone {
-    padding-bottom: 15px;
-    margin-bottom: 4px;
-    padding-right: 211px;
+  margin-top: 20px;
+  padding-right: 75px;
+  font-family: Poppins;
+  filter: drop-shadow(0 0 9px rgba(22, 22, 23, 0.11));
 }
 .Email {
-    padding-bottom: 15px;
-    margin-bottom: 4px;
-    padding-right: 211px;
+  margin-top: 20px;
+  padding-right: 75px;
+  font-family: poppins;
+  filter: drop-shadow(0 0 9px rgba(22,22,23,0.11));
 }
-.Message{
-    padding-bottom: 40px;
-margin-bottom: 4px;
-padding-right: 211px;
+.Message {
+  margin-top: 20px;
+  padding-right: 75px;
+  font-family: poppins;
+  filter: drop-shadow(0 0 9px rgba(22,22,23,0.11));
+  height: 500px;
+
 }
 .myButton {
-	background-color:#fe9901;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Poppins;
-	font-size:17px;
-	padding:12px 30px;
-	text-decoration:none;
-    font-weight: 70px;
-    width: 40px;
-    height: 16px;
-    text-align: center;
-    margin-top: 295px;
-    position: fixed;
+  background-color: #fe9901;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 17px;
+  padding: 12px 30px;
+  text-decoration: none;
+  font-weight: 700px;
+  width: 56px;
+  height: 22px;
+  text-align: center;
+  margin-top: -75px;
+  margin-left: 285px;
+  position: absolute;
+  line-height: 30px;
 }
 .myButton:active {
-	position:relative;
-	top:1px;
+  position: absolute;
+  top: 1px;
 }
 .map {
-    margin-bottom: px;
-    position: relative;
+  position: relative;
+}
+#yname {
+    height: 100px;
+    
 }
