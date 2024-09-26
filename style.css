@@ -75,7 +75,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.navigaation {
+.navigation {
   gap: 3px;
   display: flex;
   justify-content: space-between;
@@ -95,6 +95,8 @@ nav li {
 }
 
 nav a {
+  border: 1px solid transparent;
+  padding: 0px 20px;
   color: #000;
   text-decoration: none;
   transition: color 0.3s ease;
@@ -103,7 +105,6 @@ nav a {
 nav a.active {
   overflow: hidden;
   padding: 12px 20px;
-  outline:100px solid rgb(148, 12, 12);
   color: #ffffff;
   border: #ff9900;
   border-radius: 5px;
